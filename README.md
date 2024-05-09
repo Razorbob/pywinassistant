@@ -82,6 +82,13 @@ This Artificially Assisted User Interface Testing framework is a pioneering tool
 # installation
 ```
 cd pywinassistant
+python -m venv dev
+
+# For windows
+.\dev\Scripts\activate
+# For mac, linux
+source .\dev\bin\activate
+
 pip install -r .\requirements.txt
 cd .\core
 
